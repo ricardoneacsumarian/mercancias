@@ -1,0 +1,42 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+--no-fonts
+-encoding
+'UTF-8'
+-protected
+--release
+25
+-sourcepath
+'C:/Users/ricardo/Documents/NetBeansProjects/mercancia/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/ricardo/Documents/NetBeansProjects/mercancia/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'mercancia 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'mercancia 1.0-SNAPSHOT API'
+com.mycompany.mercancia
+C:\Users\ricardo\Documents\NetBeansProjects\mercancia\src\main\java = 1773327961831
+C:\Users\ricardo\Documents\NetBeansProjects\mercancia\target\reports\apidocs\allclasses-index.html = 1773336826122
+C:\Users\ricardo\Documents\NetBeansProjects\mercancia\target\reports\apidocs\allpackages-index.html = 1773336826125
+C:\Users\ricardo\Documents\NetBeansProjects\mercancia\target\reports\apidocs\element-list = 1773336826071
+C:\Users\ricardo\Documents\NetBeansProjects\mercancia\target\reports\apidocs\help-doc.html = 1773336826153
+C:\Users\ricardo\Documents\NetBeansProjects\mercancia\target\reports\apidocs\index-all.html = 1773336826143
+C:\Users\ricardo\Documents\NetBeansProjects\mercancia\target\reports\apidocs\index.html = 1773336826149
+C:\Users\ricardo\Documents\NetBeansProjects\mercancia\target\reports\apidocs\member-search-index.js = 1773336826131
+C:\Users\ricardo\Documents\NetBeansProjects\mercancia\target\reports\apidocs\module-search-index.js = 1773336826126
+C:\Users\ricardo\Documents\NetBeansProjects\mercancia\target\reports\apidocs\overview-tree.html = 1773336826112
+C:\Users\ricardo\Documents\NetBeansProjects\mercancia\target\reports\apidocs\package-search-index.js = 1773336826127
+C:\Users\ricardo\Documents\NetBeansProjects\mercancia\target\reports\apidocs\search.html = 1773336826146
+C:\Users\ricardo\Documents\NetBeansProjects\mercancia\target\reports\apidocs\tag-search-index.js = 1773336826132
+C:\Users\ricardo\Documents\NetBeansProjects\mercancia\target\reports\apidocs\type-search-index.js = 1773336826128
