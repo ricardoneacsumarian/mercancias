@@ -8,12 +8,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
+ * Gestiona la lista de mercancías dentro del sistema.
+ * 
  * @author ricardo
  */
-/**
- * Clase que gestiona la logÃ­stica de transporte.
- */
+
 public class SistemaTransporte {
     private List<Mercancia> mercancias = new ArrayList<>();
 
@@ -21,6 +20,11 @@ public class SistemaTransporte {
         return mercancias;
     }
 
+  /**
+  * Agrega una mercancía al sistema.
+  * 
+  * @param mercancia mercancía a registrar 
+  */
     public void agregarMercancia(Mercancia mercancia) {
         if(mercancia==null){
             System.err.println("no puede agregar una mercancía nula");
@@ -29,6 +33,9 @@ public class SistemaTransporte {
         mercancias.add(mercancia);
     }
 
+  /**
+  * Muestra todas las mercancías registradas.
+  */
     public void mostrarMercancias() {
         if(mercancias.isEmpty()){
             System.out.println("no hay mercancías registradas");

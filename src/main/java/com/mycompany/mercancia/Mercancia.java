@@ -5,18 +5,24 @@
 package com.mycompany.mercancia;
 
 /**
- *
+ * Representa una mercancía peligrosa dentro del sistema de transporte.
  * @author ricardo
  */
-/**
- * Clase que representa una mercancÃ­a peligrosa.
- */
+
 public class Mercancia {
     private String nombre;
     private String origen;
     private String destino;
     private int cantidad;
 
+    /**
+     * Representa el constructor de un objeto de tipo mercancía.
+     * 
+     * @param nombre nombre de la mercancía.
+     * @param origen país de origen de la mercancía.
+     * @param destino país de destino.
+     * @param cantidad cantidad de la mercancía.
+     */
     public Mercancia(String nombre, String origen, String destino, int cantidad) {
         this.nombre = nombre;
         this.origen = origen;
@@ -56,6 +62,11 @@ public class Mercancia {
         this.cantidad = cantidad;
     }
 
+    /**
+     * Devuele la información de la mercancía.
+     * 
+     * @return devuelve la información de la mercancía formateada.
+     */
     public String mostrarInfo() {
     return "MercancÃ­a: " + nombre + " | Origen: " + origen + " | Destino: " + destino + " | Cantidad: " + cantidad;
     }
